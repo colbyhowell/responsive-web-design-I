@@ -365,3 +365,42 @@ li{
 
 
 }
+
+@media ( max-width: 800px ) {
+    .servicesIntro{
+        margin: auto;
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .services-header-img{
+        width: 100%;
+    }
+
+    .sectionRows{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .serviceBox{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionRows .serviceBox:first-child {
+        margin-right: 0px;
+    }
+
+    .someFacts{
+        margin-left: 20px;
+        width: 80%;
+        padding: 0px 0px 20px 0px;
+    }
+
+
+}
