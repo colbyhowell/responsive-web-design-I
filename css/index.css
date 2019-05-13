@@ -1,3 +1,367 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
 
 
+body{
+	max-width: 880px;
+	margin: auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: start;
+	align-items: center;
+	padding: 0px 0px;
+	margin: 0px -30px;
+}
+
+header img {
+	padding: 0px 0px 0px 5px;
+}
+
+header a{
+	padding: 20px 35px;
+	/* font-family: Arial; */
+	font-size: 15px;
+	color: #bfbfbf;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+header a:hover{
+	color: #3c3c3c;
+}
+
+h1{
+	font-size: 70px;
+	overflow-wrap: break-word;
+}
+
+.inline-together{
+	text-align: center;
+	margin: auto;
+	padding: 40px 80px 85px 80px;
+}
+
+.inline-together2{
+    text-align: center;
+    margin: auto;
+    padding: 0px 30px 0px 80px;
+    height: 50%;
+    vertical-align: top;
+    width: 45%;
+}
+
+
+.datButton{
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px 40px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+.box-width{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+hr {
+	display: block;
+	margin: auto;
+	width: 100%;
+	border-width: .5px;
+	color: black;
+	border-style: solid;
+}
+
+.inline-services{
+	padding: 20px 40px 20px 0px;
+	width: 475px;
+	height: 175px;
+}
+
+.middle-img{
+	display: flex;
+	justify-content: center;
+}
+
+.services-header-img{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.inline-services2{
+	padding: 20px 40px 20px 0px;
+	width: 320px;
+	height: 175px;
+}
+
+.copyright{
+text-align: center;
+font-size: 12px;
+padding: 20px 0px;
+}
+
+.servicesFont{
+	font-size: 30px;
+	padding: 30px 0px 0px 0px;
+}
+
+.servicesIntro{
+	padding: 0px 0px 40px 0px;
+}
+
+.serviceBox{
+	padding: 30px;
+	background-color: #f2f2f2;
+	border: black solid .5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
+	margin-bottom: 40px;
+}
+
+.sectionRows .serviceBox:first-child{
+	margin-right: 20px;
+}
+
+.learn-more-btn{
+	font-size: 11px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 50px;
+	border: black solid .5px;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.learn-more-btn:hover{
+	background-color: black;
+	color: white;
+}
+
+.sectionRows{
+	display: flex;
+	justify-content: space-between;
+}
+
+.thickerLine{
+	display: block;
+	margin: auto;
+	width: 100%;
+	border-width: 1px;
+	color: black;
+	border-style: solid;
+	margin-bottom: 40px;
+}
+
+.topLine{
+	margin-bottom: 40px;
+}
+
+.someFacts{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+
+.someFacts p{
+	padding: 0px 50px 0px 0px;
+}
+
+.factsList{
+	padding: 20px 0px 0px 20px;
+
+}
+
+li{
+	list-style-type: square;
+	line-height: 1.5em;
+}
+
+.copyrightBot{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.address-text{
+	font-size: 30px;
+	display: flex;
+	justify-content: flex-start;
+	font-weight: bold;
+	color: #ff9933;
+}
+
+@media ( min-width:800px ) {
+    .goaway{
+        display: none;
+    }
+}
+
+@media ( max-width:800px ) {
+    
+    .all-nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .inline-together{
+        display: none;
+    }
+    .inline-together2{
+        width: 100%;
+        padding: 50px 0px 60px 0px;
+    }
+
+    .box-width{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .inline-services{
+        padding: 20px 40px 20px 25px;
+    }
+
+    hr{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+    
+    .middle-img{
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .inline-services2{
+        padding: 20px 40px 20px 25px;
+    }
+
+    .section2{
+        padding: 0px 0px 40px 0px;
+    }
+
+    .footerStyle{
+        padding: 15px;
+    }
+}
+
+@media ( max-width: 500px ) {
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-nav{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .mobile-nav a{
+        border-top: .5px black solid;
+        border-bottom: .5px black solid;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-width{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+    }
+
+    .inline-services{
+        padding: 20px 15px 30px 20px;
+        height: 100%;
+    }
+
+    .inline-services2{
+        padding: 20px 15px 30px 20px;
+        height: 100%;
+        width: 100%
+    }
+
+
+}
